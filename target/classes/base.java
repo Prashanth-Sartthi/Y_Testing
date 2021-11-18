@@ -25,6 +25,7 @@ FileInputStream fis=new FileInputStream("C:\\Users\\Prasi\\Desktop\\Testing\\Cod
 prop.load(fis);
 String browserName=prop.getProperty("browser");
 System.out.println(browserName);
+System.out.println("bye");
 
 if(browserName.equals("chrome"))
 {
